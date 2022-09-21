@@ -11,7 +11,7 @@ contract PriceContract {
     //address private priceAddress = 0x2514895c72f50D8bd4B4F9b1110F0D6bD2c97526; // BNB/USD Testnet
     //https://docs.chain.link/docs/bnb-chain-addresses/
 
-    constructor(address payable ceoAddr,address payable proxyaccount) public {
+    constructor() public {
         priceFeed = AggregatorV3Interface(priceAddress);
     }
 
