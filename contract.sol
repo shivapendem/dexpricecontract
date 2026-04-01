@@ -9,7 +9,7 @@ contract PriceContract {
     AggregatorV3Interface internal priceFeed;
     address private priceAddress = 0x0567F2323251f0Aab15c8dFb1967E4e8A7D42aeE; // BNB/USD Mainnet
     //address private priceAddress = 0x2514895c72f50D8bd4B4F9b1110F0D6bD2c97526; // BNB/USD Testnet
-    //https://docs.chain.link/docs/bnb-chain-addresses/
+    //https://oracle.binance.com/docs/price-feeds/contract-addresses/bnb-testnet
 
     constructor() public {
         priceFeed = AggregatorV3Interface(priceAddress);
